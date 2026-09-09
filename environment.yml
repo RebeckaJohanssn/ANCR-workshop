@@ -1,0 +1,16 @@
+name: ancr-workshop
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10
+  - pip
+  - requests
+  - pandas
+  - plotly
+  - itables
+  - matplotlib
+  - ipywidgets
+  - jupyterlab
+  - pip:
+    - nbclient
